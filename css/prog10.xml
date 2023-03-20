@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="VTU1.css" ?>
+<!DOCTYPE VTU SYSTEM "vtu1.dtd">
+<VTU>
+<STUDENT>
+<USN>1NH20IS001</USN>
+<NAME>Ajith </NAME>
+<COLLEGE>NHCE</COLLEGE>
+<BRANCH>Ise</BRANCH>
+<YOJ>2020</YOJ>
+<EMAIL>Ajith@gmail.com</EMAIL>
+</STUDENT>
+<STUDENT>
+<USN>1NH21CS002</USN>
+<NAME>Biju</NAME>
+<COLLEGE>NHCE</COLLEGE>
+<BRANCH>Cse</BRANCH>
+<YOJ>2021</YOJ>
+<EMAIL>Biju@gmail.com</EMAIL>
+</STUDENT>
+<STUDENT>
+<USN>1NH19EC003</USN>
+<NAME>Cintu</NAME>
+<COLLEGE>NHCE</COLLEGE>
+<BRANCH>Ece</BRANCH>
+<YOJ>2019</YOJ>
+ <EMAIL>cintu@gmail.com</EMAIL>
+</STUDENT>

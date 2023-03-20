@@ -1,0 +1,56 @@
+/* 01. fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,400;1,200;1,400;1,500&display=swap');
+
+/*  02. variables */
+:root{
+    --main-color: hsl(257, 68%, 73%);
+    --light-red: hsl(0, 67%, 71%); 
+    --light-yellow: hsl(42, 73%, 74%);
+    --black-90: hsl(0, 0%, 10%);
+    --black-70: hsl(0, 0%, 30%);
+    --white: hsl(0, 0%, 100%);
+    --white-alpha-40: hsla(0, 0%, 100%, 0.4);
+    --white-alpha-50: hsla(0, 0%, 100%, 0.5);
+    --body-bg-color: hsl(42, 71%, 87%);
+    --border-color-1: hsl(42, 45%, 73%);
+    --border-color-2: hsla(44, 45%, 73%, 0.4);
+    --shadow-color: hsl(42, 45%, 73%);
+}
+
+/*04. base*/
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+::before,
+::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    background-color: var(--body-bg-color) !important;/*background color*/
+    color: var(--black-70);
+    overflow-x: hidden;
+    line-height: 1.5;
+    -webkit-tap-highlight-color: transparent;
+}
+h1,h2,h3,h4,h5,h6{
+    line-height:1.2;
+    color: var(--black-90);
+}
+
+/*5. container*/
+.container{
+    max-width: 1170px;
+     /*background-color: red; */
+     
+    margin: auto;
+    padding: 0 15px; 
+}
